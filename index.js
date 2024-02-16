@@ -1,23 +1,23 @@
-// Задание 1
+// Задание 1.
 
 const names = ['Иван', 'Мария', 'Алексей', 'Ольга', 'Сергей', 'Анна'];
 names.forEach(name => {
   console.log(`Привет, ${name}`);
 });
 
-// Задание 2 
+// Задание 2.
 
 const numbers = [1, 2, 3, 4, 5];
 const newNumbers = numbers.map(number => number * 10);
 console.log(newNumbers); // [10, 20, 30, 40, 50]
 
-// Задание 3
+// Задание 3.
 
 const numbersOfArray = [5, 12, 8, 130, 44];
 const newNumbersOfArray = numbersOfArray.filter(number => number > 10);
 console.log(newNumbersOfArray); // [12, 130, 44]
 
-// Задание 4
+// Задание 4.
 
 const people = [
     { name: 'Иван', age: 23 },
@@ -34,7 +34,7 @@ const people = [
   
   console.log(adultPeople); // ['Иван (23 лет)', 'Алексей (32 лет)', 'Ольга (24 лет)', 'Анна (21 лет)']
 
-  // Задание 5
+  // Задание 5.
 
   const sales = [
     { product: 'Телефон', price: 50000, quantity: 1 },
